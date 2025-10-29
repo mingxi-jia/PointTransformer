@@ -1,5 +1,7 @@
 import torch
 import torch.nn as nn
+import sys
+sys.path.append('third_party/PointTransformer')
 from lib.pointops.functions import pointops
 import torch.nn.functional as F
 import einops
